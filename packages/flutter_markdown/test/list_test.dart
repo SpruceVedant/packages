@@ -194,8 +194,6 @@ void defineTests() {
 
         await tester.pumpWidget(
           boilerplate(
-            // TODO(goderbauer): Make this const when this package requires Flutter 3.8 or later.
-            // ignore: prefer_const_constructors
             Column(
               children: const <Widget>[
                 MarkdownBody(fitContent: false, data: data),
@@ -219,8 +217,6 @@ void defineTests() {
 
         await tester.pumpWidget(
           boilerplate(
-            // TODO(goderbauer): Make this const when this package requires Flutter 3.8 or later.
-            // ignore: prefer_const_constructors
             Column(
               children: const <Widget>[
                 MarkdownBody(data: data),

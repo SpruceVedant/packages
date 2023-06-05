@@ -16,8 +16,6 @@ void defineTests() {
       'Then it wraps its content',
       (WidgetTester tester) async {
         await tester.pumpWidget(boilerplate(
-          // TODO(goderbauer): Make this const when this package requires Flutter 3.8 or later.
-          // ignore: prefer_const_constructors
           Stack(
             children: const <Widget>[
               Text('shrinkWrap=true'),
@@ -48,8 +46,6 @@ void defineTests() {
       'Then it expands to the maximum allowed height',
       (WidgetTester tester) async {
         await tester.pumpWidget(boilerplate(
-          // TODO(goderbauer): Make this const when this package requires Flutter 3.8 or later.
-          // ignore: prefer_const_constructors
           Stack(
             children: const <Widget>[
               Text('shrinkWrap=false test'),

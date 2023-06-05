@@ -1,3 +1,7 @@
+## Next
+
+* Removes stale `ignore: prefer_const_constructors`
+
 ## 2.2.8
 
 * Fixes unawaited_futures violations.
